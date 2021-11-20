@@ -1,0 +1,47 @@
+body {
+  background-color: #d3e0f5;
+}
+#title {
+  text-align: center;
+  font-size: 3em;
+  margin: 0px;
+}
+.subname {
+  text-align: center;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+#img-caption {
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  #img-div {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 800px) {
+   #img-div {
+    flex: 100%;
+    max-widt: 100%;
+  }
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000;
+  text-align: left;
+  padding: 8px;
+  text-align:center;
+}
+
+th {
+  background-color: #dddddd;
+}
